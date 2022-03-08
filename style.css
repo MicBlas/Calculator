@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 30vw;
+    height: 100vh;
+    margin: 0 auto;
+    background-image: linear-gradient(
+          5deg,
+          hsl(240deg 70% 21%) 0%,
+          hsl(290deg 89% 19%) 6%,
+          hsl(316deg 100% 24%) 13%,
+          hsl(330deg 100% 30%) 19%,
+          hsl(348deg 67% 42%) 25%,
+          hsl(9deg 62% 48%) 31%,
+          hsl(27deg 77% 45%) 37%,
+          hsl(42deg 99% 39%) 44%,
+          hsl(55deg 88% 39%) 50%,
+          hsl(47deg 80% 42%) 56%,
+          hsl(40deg 71% 45%) 63%,
+          hsl(33deg 63% 47%) 69%,
+          hsl(27deg 57% 48%) 75%,
+          hsl(20deg 50% 48%) 81%,
+          hsl(14deg 44% 48%) 87%,
+          hsl(7deg 38% 46%) 94%,
+          hsl(0deg 32% 44%) 100%
+            );
+    text-align: center;
+}
+input{
+    width: 80%;
+    height: 4%;
+    margin: 10% 0;
+}
+h1{
+    font-size: 2vw;
+    padding: 2%;
+}
+button{  /*fix size in different devices*/
+    width: 5vw;
+    height: 8vh;
+    padding: 1vw;
+    margin: 1%;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    font-size: 1.5vw;
+}
+input{
+    font-size: 25px;
+    color: black;
+}
