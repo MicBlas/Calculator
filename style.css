@@ -52,3 +52,7 @@ input{
     font-size: 25px;
     color: black;
 }
+.invisible{
+    visibility: hidden;
+    //opacity: 0;
+}
