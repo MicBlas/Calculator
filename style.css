@@ -38,7 +38,7 @@ h1{
     font-size: 2vw;
     padding: 2%;
 }
-button{  /*fix size in different devices*/
+button{
     width: 5vw;
     height: 8vh;
     padding: 1vw;
@@ -47,6 +47,7 @@ button{  /*fix size in different devices*/
     border-radius: 20px;
     background-color: antiquewhite;
     font-size: 1.5vw;
+    cursor: pointer;
 }
 input{
     font-size: 25px;
